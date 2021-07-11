@@ -5,3 +5,5 @@ Step to run in local:
 4. Run ng serve
 
 After these steps local server should be up.
+
+Alternatively you can check this on https://stackblitz.com/edit/weathertracker 
