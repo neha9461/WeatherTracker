@@ -1,0 +1,15 @@
+<div class="city-input">
+  <input type="text" #city id="city-name" placeholder="Enter your city"/>
+
+  <button (click)="getWeatherByCity(city.value)">
+    Get data
+  </button>
+  <button (click)="clear()">
+    Clear
+  </button>
+</div>
+
+<div *ngFor="let forcast of forcastDetails" class="city-weather">
+  <span><b>City: {{forcast?.city?.name}}</b></span>
+  <data-tracker [dailyForcast]="forcast.list"></data-tracker>
+</div>

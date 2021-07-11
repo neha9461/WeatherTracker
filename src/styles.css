@@ -1,0 +1,11 @@
+/* Global Styles */
+body {
+  padding: 0.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+@media (min-width: 600px) {
+  body {
+    padding: 2rem;
+  }
+}
